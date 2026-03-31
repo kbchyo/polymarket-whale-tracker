@@ -14,6 +14,20 @@ This project is designed as a portfolio piece, emphasizing:
 - Performance tracking (PnL, latency, signal pass rate)
 - Exportable logs for analysis
 
+## Core Features
+
+- Whale activity/trade ingestion from Polymarket data sources
+- Hybrid signal pipeline (websocket-triggered + reconciliation flow)
+- Paper-trading engine (no live order execution)
+- Risk controls:
+- stop-loss / take-profit
+- position caps
+- market cap constraints
+- stale-trade filtering
+- Latency tracking:
+- median and p90 signal lag
+- Bankroll tracking mode:
+
 ## Tech Stack
 
 - Python 3.10+
