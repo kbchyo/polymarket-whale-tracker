@@ -45,6 +45,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 python src/main.py
 ```
+## Repository Structure
 ```text
 polymarket-whale-tracker/
 ├── src/
