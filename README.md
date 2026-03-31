@@ -1,3 +1,4 @@
+# Polymarket Whale Tracker (Hybrid, Paper Trading)
 A Python-based analytics project that tracks high-volume wallet activity ("whales") on Polymarket and simulates copy-trading decisions in paper mode (no real money).
 
 This project is designed as a portfolio piece, emphasizing:
@@ -34,7 +35,16 @@ This project is designed as a portfolio piece, emphasizing:
 - Pandas / NumPy
 - Requests
 - JSON/CSV data pipelines
-
+  
+## Quick Start
+```text
+git clone https://github.com/kbchyo/polymarket-whale-tracker.git
+cd polymarket-whale-tracker
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python src/main.py
+```
 ```text
 polymarket-whale-tracker/
 ├── src/
