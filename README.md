@@ -29,6 +29,18 @@ This project is designed as a portfolio piece, emphasizing:
 - median and p90 signal lag
 - Bankroll tracking mode:
 
+## Results Summary (Paper Simulation)
+
+| Variant | Signals Passed | Open / Closed Trades | Total PnL (Paper) | Median Lag | P90 Lag |
+|---|---:|---:|---:|---:|---:|
+| Hybrid-20 | 2193 | 1036 / 1157 | +15.8767 | 19.905s | 33.559s |
+| Hybrid-30 | 1876 | 864 / 1012 | -22.4449 | 20.050s | 32.945s |
+
+> Notes:
+> - Metrics above come from prior full simulation windows (pre-reset snapshots).
+> - Results are paper-mode only and depend on market regime and simulation assumptions.
+> - Hybrid-30 was evaluated under bankroll-constrained settings.
+
 ## Tech Stack
 
 - Python 3.10+
