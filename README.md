@@ -8,26 +8,19 @@ This project is designed as a portfolio piece, emphasizing:
 
 ## Features
 
-- Whale trade/activity ingestion
-- Crypto-market filtering
-- Paper-trading simulation (no live order submission)
-- Risk controls (position limits, stop-loss/take-profit, cooldowns)
-- Performance tracking (PnL, latency, signal pass rate)
-- Exportable logs for analysis
-
-## Core Features
-
 - Whale activity/trade ingestion from Polymarket data sources
-- Hybrid signal pipeline (websocket-triggered + reconciliation flow)
+- Hybrid signal pipeline (websocket-triggered + reconciliation polling)
 - Paper-trading engine (no live order execution)
 - Risk controls:
 - stop-loss / take-profit
-- position caps
-- market cap constraints
+- position caps and market caps
 - stale-trade filtering
-- Latency tracking:
-- median and p90 signal lag
-- Bankroll tracking mode:
+- cooldown / flip suppression
+- Performance instrumentation:
+- PnL (realized/unrealized/total)
+- signal pass/skip metrics
+- median and p90 latency tracking
+- Bankroll-constrained simulation mode
 
 ## Results Summary (Paper Simulation)
 
