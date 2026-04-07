@@ -42,7 +42,7 @@ This project is designed as a portfolio piece, emphasizing:
 - JSON/CSV data pipelines
   
 ## Quick Start
-```text
+```bash
 git clone https://github.com/kbchyo/polymarket-whale-tracker.git
 cd polymarket-whale-tracker
 python3 -m venv .venv
