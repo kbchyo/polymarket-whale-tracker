@@ -1,0 +1,4 @@
+timestamp,market,outcome,side,price,size_usdc
+2026-03-12T14:00:00Z,BTC Up or Down,Down,BUY,0.64,20
+2026-03-12T14:02:00Z,ETH Up or Down,Up,SELL,0.41,20
+2026-03-12T14:04:00Z,SOL Up or Down,Down,BUY,0.35,20
