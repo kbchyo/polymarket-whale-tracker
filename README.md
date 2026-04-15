@@ -1,6 +1,6 @@
 # Polymarket Whale Tracker (Hybrid, Paper Trading)
 
-A TypeScript bot that tracks high-volume wallet activity ("whales") on Polymarket and simulates copy-trading decisions in paper mode (no real money).
+A TypeScript/Python bot that tracks high-volume wallet activity ("whales") on Polymarket and simulates copy-trading decisions in paper mode (no real money).
 
 Built as a portfolio piece emphasizing real-time data engineering, signal pipeline design, and reproducible performance analysis.
 
