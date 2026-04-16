@@ -51,8 +51,8 @@ src/
 └── ARCHITECTURE_NOTES.md # Design decisions and notes
 
 scripts/
-├── run_hybrid_whale_sim.sh      # Hybrid-20 simulation runner
-├── run_hybrid_whale_sim_30.sh   # Hybrid-30 (bankroll-constrained) runner
+├── run_hybrid_whale_sim.sh      # Hybrid-20 simulation runner for comparison
+├── run_hybrid_whale_sim_30.sh   # Hybrid-30 (bankroll-constrained of 30 USD) runner
 ├── run_tuned_whale_sim.sh       # Tuned variant runner
 ├── run_side_whale_sim.sh        # Side-only variant runner
 ├── hour_paper_run.py            # Hourly paper run utility
