@@ -8,7 +8,7 @@ Built as a portfolio piece emphasizing real-time data engineering, signal pipeli
 
 ## Features
 
-- **Hybrid signal pipeline** — WebSocket-triggered detection for low latency + reconciliation polling to catch missed events
+- **Hybrid signal pipeline**, WebSocket-triggered detection for low latency + reconciliation polling to catch missed events
 - **Paper-trading engine** with full position tracking (no live order execution)
 - **Multiple feed modes**: `poll`, `ws`, `hybrid`, `shadow` (for latency benchmarking)
 - **Risk controls**: stop-loss, take-profit, stale-trade closing, position caps, daily loss/stake limits, flip suppression, per-position loss limits
