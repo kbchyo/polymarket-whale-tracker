@@ -16,7 +16,7 @@ Built as a portfolio piece emphasizing real-time data engineering, signal pipeli
 - **Bankroll-constrained simulation** for capital-aware strategy comparison
 - **Persistent state** across runs via JSON state file
 - **Performance instrumentation**: p90 latency tracking, signal pass/skip/reject metrics, source attribution (ws vs poll)
-- **Top-N weighted position filtering** — focus on whale's highest-conviction tokens
+- **Top-N weighted position filtering**, focus on whale's highest-conviction tokens
 
 ---
 
