@@ -37,13 +37,13 @@ Dashboard screenshots are in [`screenshots/`](./screenshots/).
 
 ```
 src/
-├── index.ts              # Main entry point — orchestrates feed, signal processing, risk engine
+├── index.ts              # Main entry point; orchestrates feed, signal processing, risk engine
 ├── config.ts             # All configuration via environment variables
 ├── feed.ts               # PollingWhaleFeed, WebsocketTriggeredWhaleFeed, HybridWhaleFeed
 ├── websocketFeed.ts      # WebSocket connection and reconnect logic
 ├── polymarketWsParser.ts # Parses Polymarket WebSocket message format
 ├── polymarket.ts         # Polymarket REST API client
-├── paperTrader.ts        # Paper trading engine — positions, PnL, mark-to-market
+├── paperTrader.ts        # Paper trading engine, positions, PnL, mark-to-market
 ├── filters.ts            # Trade signal filtering logic
 ├── types.ts              # Shared TypeScript types
 ├── gapReport.ts          # Gap detection and reconciliation reporting
@@ -101,7 +101,7 @@ All configuration is via environment variables (see `.env.example`):
 ## Tech Stack
 
 - TypeScript / Node.js
-- `@polymarket/clob-client` — Polymarket CLOB API
-- `ethers` — wallet/on-chain support
-- `dotenv` — environment configuration
+- `@polymarket/clob-client`  Polymarket CLOB API
+- `ethers`  wallet/on-chain support
+- `dotenv`  environment configuration
 - Python utility scripts for simulation analysis
